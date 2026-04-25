@@ -13,6 +13,7 @@ test('Handle JS Alert', async ({ page }) => {
   await page.click('text=Click for JS Alert');
 
   // Verify result text
+  //Nina's comment
   const result = page.locator('#result');
   await expect(result).toHaveText('You successfully clicked an alert');
 });
