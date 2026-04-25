@@ -14,6 +14,7 @@ test('Handle JS Alert', async ({ page }) => {
 
   // Verify result text
   //Nina's comment
+  //Ilana new comment
   const result = page.locator('#result');
   await expect(result).toHaveText('You successfully clicked an alert');
 });
